@@ -67,6 +67,14 @@ export default {
     this.readHostFile(this.hostFiles[0].name);
   },
   data() {
+    let isSelectedHostFiles = readConfigFile("use") || [];
+    isSelectedHostFiles.forEach((file, index) => {
+      hostFiles.forEach(item => {
+        if (file.name === item.name) {
+          hostFiles[index].isSelect = true;
+        }
+      });
+    });
     return {
       showHostIndex: 0,
       hostFiles: hostFiles,
@@ -92,6 +100,7 @@ export default {
     // 删除host
     delHost() {
       removeFile(this.hostFiles[this.showHostIndex].name);
+      this.selectHost(false);
       this.hostFiles.splice(this.showHostIndex, 1);
       if (this.showHostIndex === 0) {
         this.readHostFile(this.hostFiles[0].name);
@@ -108,8 +117,8 @@ export default {
 
       let name = temp[this.showHostIndex].name;
       let useFiles = readConfigFile("use") || [];
-      let tempArr = JSON.parse(JSON.stringify(useFiles));
 
+      let tempArr = JSON.parse(JSON.stringify(useFiles));
       let isTrue = tempArr.some(item => item.name === name);
       if (isTrue) {
         useFiles.forEach((file, index) => {

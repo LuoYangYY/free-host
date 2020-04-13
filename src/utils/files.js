@@ -31,10 +31,10 @@ let initFile = function () {
     }
 
     let hostFilesArr = execSync(`ls '${myHostPath}'`, 'utf8').toString().split('\n');
-
+    console.log(hostFilesArr)
     hostFilesArr.forEach(function (item) {
         if (item) {
-            let temp = { name: item, isEdit: false, isUse: false };
+            let temp = { name: item, isNameEdit: false, isSelect: false };
             hostFiles.push(temp);
         }
     });

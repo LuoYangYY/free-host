@@ -55,7 +55,11 @@ app.on('ready', () => {
 
     //单击小图标显示应用
     appTray.on('click', function () {
-        mainWindow.show();
+        if (mainWindow === null) {
+            createWindow()
+        }else{
+            mainWindow.show();
+        }
     })
 
     createWindow();

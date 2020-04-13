@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="left">&copy; copyright 2020, power by JSG</div>
+    <div class="left">&copy; copyright 2020, power by LY</div>
     <div class="right">
       <div class="iconfont icon-shezhi"></div>
       <div class="tip">
