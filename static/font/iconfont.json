@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36135",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "f0034",
+      "unicode_decimal": 983092
+    },
+    {
+      "icon_id": "693602",
+      "name": "新建 ",
+      "font_class": "xinjian",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "778505",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "1169856",
+      "name": "buy-webhosting-step1-dns",
+      "font_class": "buywebhostingstep1dns",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "2718729",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "5086088",
+      "name": "新建",
+      "font_class": "xinjian1",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "8299126",
+      "name": "dns",
+      "font_class": "dns",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "8358840",
+      "name": "减少4",
+      "font_class": "jianshao",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "8358855",
+      "name": "增加4",
+      "font_class": "zengjia",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "8474347",
+      "name": "repeat",
+      "font_class": "repeat",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "10262050",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "11759963",
+      "name": "WiFi",
+      "font_class": "WiFi",
+      "unicode": "e7bf",
+      "unicode_decimal": 59327
+    },
+    {
+      "icon_id": "12615474",
+      "name": "wifi",
+      "font_class": "wifi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "13723337",
+      "name": "httpdns",
+      "font_class": "httpdns",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    }
+  ]
+}
